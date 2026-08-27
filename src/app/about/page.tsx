@@ -1,17 +1,22 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import React from "react";
-
+export const metadata: Metadata = {
+  title: "About | Sushant Pokhrel",
+  description:
+    "Learn more about Sushant Pokhrel, a full-stack web developer and CSIT student specializing in MERN stack, Next.js, and backend development.",
+};
 export default function page() {
   return (
     <main className="font-sans py-7 px-5 sm:px-0 max-w-xl sm:mx-auto">
-      <h1 className="text-3xl font-semibold ">About</h1>
+      <h1 className="text-3xl font-semibold ">About Sushant Pokhrel</h1>
       <div className="border-t border-gray-200 mt-6 py-6">
         {" "}
         <p className="text-lg text-normal-para mb-8">
-          Hi there, I'm Sushant Pokhrel. I build custom web applications, along
-          side working on some fun projects of my own. I work on both frontend
-          and backend of a project but recently I've been leaning more towards
-          the backend part. <br />
+          Hi there, I'm <strong>Sushant Pokhrel</strong>. I build custom web
+          applications, along side working on some fun projects of my own. I
+          work on both frontend and backend of a project but recently I've been
+          leaning more towards the backend part. <br />
           <br />
           I use MERN or NextJs for my projects. I'm also learning Mobile App
           development to expand my knowledge. I'm also doing my bachelors in
