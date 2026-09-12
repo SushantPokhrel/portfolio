@@ -1,7 +1,7 @@
 export const Projects = [
   {
-    project_name: "Dharane Express Cargo",
-    live_view: "https://app.dharanexpresscargo.workers.dev",
+    project_name: "Dajubhai Enterprises",
+    live_view: "https://dajubhaienterprises.com.np/",
     details:
       "A cargo & courier website and management system for a local cargo business.",
     preview_img: "/dharanecargo_landingview.png",
